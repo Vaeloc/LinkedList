@@ -1,7 +1,7 @@
-// Custom LinkedList class
 public class LinkedList
 {
-    Node head; // The first node in the list
+    // The first node in the list
+    Node head;
 
     public void append(int data)
     {
