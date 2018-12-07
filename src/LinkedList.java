@@ -34,10 +34,14 @@ public class LinkedList
     // Delete a node with a given value
     public void deleteWithValue(int data)
     {
+        // If head is null then list is empty
         if (head == null) return;
+
+        // Remove head node if it's the value to delete
         if (head.data == data)
         {
             head = head.next;
+            return;
         }
 
         Node current = head;
